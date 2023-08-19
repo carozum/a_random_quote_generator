@@ -76,7 +76,7 @@ function randomNumber(num){
   return Math.floor(Math.random() * (num+1));
 }
 
-/**
+  /**
  * change the color of the background and of the font
  * 
  */
@@ -123,6 +123,7 @@ function printQuote(){
   //change the changeColors
   changeColors();
 
+  
   //display the message
   message += "</p>";
   document.getElementById('quote-box').innerHTML = message;
